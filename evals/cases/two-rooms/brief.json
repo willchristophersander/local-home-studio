@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "name": "Front room",
+  "width": 4,
+  "depth": 3.2,
+  "height": 2.4,
+  "floorElevation": 0,
+  "wallThickness": 0.2,
+  "openings": [
+    { "wall": "north", "kind": "door", "offset": 1.2, "width": 0.9, "sill": 0, "height": 2.1 }
+  ],
+  "unseen": ["A second room is visible through the north door; how it connects is unknown."],
+  "assumptions": ["Only the front room is drafted."]
+}

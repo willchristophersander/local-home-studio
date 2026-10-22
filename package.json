@@ -1,0 +1,42 @@
+{
+  "name": "local-home-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local architectural editor — geometry and persistence proof",
+  "type": "module",
+  "main": "dist-desktop/main.cjs",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build && node scripts/build-desktop.mjs",
+    "start": "electron .",
+    "test": "vitest run",
+    "eval": "vitest run tests/evals.test.ts",
+    "eval:score": "node scripts/score-run.mjs",
+    "typecheck": "tsc --noEmit",
+    "package": "npm run build && electron-packager . 'Local Home Studio' --platform=darwin --arch=arm64 --out=release --overwrite --ignore='^/(src|tests|docs|scripts|release|.git)'"
+  },
+  "dependencies": {
+    "@babylonjs/core": "9.31.0",
+    "@babylonjs/loaders": "9.31.0",
+    "@gltf-transform/core": "4.5.1",
+    "@gltf-transform/extensions": "4.5.1",
+    "earcut": "3.2.4",
+    "gltf-validator": "2.0.0-dev.3.10",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "@types/earcut": "3.0.0",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "electron": "44.8.0",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "vitest": "5.0.5"
+  }
+}

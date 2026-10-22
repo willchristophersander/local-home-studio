@@ -1,0 +1,12 @@
+{
+  "widthM": 3,
+  "depthM": 3,
+  "heightM": 2.4,
+  "floorElevationM": 0,
+  "toleranceM": 0.001,
+  "openings": [],
+  "overridden": ["width"],
+  "geometryCodes": [],
+  "mustReject": true,
+  "diagnosticCode": "OPENING_OUTSIDE_WALL"
+}

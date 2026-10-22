@@ -1,0 +1,14 @@
+{
+  "widthM": 4,
+  "depthM": 3.2,
+  "heightM": 2.4,
+  "floorElevationM": 0,
+  "toleranceM": 0.001,
+  "openings": [
+    { "wall": "north", "kind": "door", "widthM": 0.9 }
+  ],
+  "overridden": [],
+  "geometryCodes": [],
+  "mustReject": false,
+  "unseenIncludes": ["second room"]
+}

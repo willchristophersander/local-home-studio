@@ -1,0 +1,7 @@
+{
+  "caseId": "rectangular-room",
+  "prompt": "room-brief-v1",
+  "provider": "fixture",
+  "model": "fixture",
+  "live": false
+}

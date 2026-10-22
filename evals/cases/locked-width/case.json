@@ -1,0 +1,6 @@
+{
+  "id": "locked-width",
+  "title": "A tape measurement replaces the visual estimate",
+  "locked": [{ "property": "width", "valueM": 5 }],
+  "evidence": []
+}

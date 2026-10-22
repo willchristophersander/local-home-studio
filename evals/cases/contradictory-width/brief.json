@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "name": "Short wall",
+  "width": 4.5,
+  "depth": 3,
+  "height": 2.4,
+  "floorElevation": 0,
+  "wallThickness": 0.2,
+  "openings": [
+    { "wall": "south", "kind": "door", "offset": 0.4, "width": 2.8, "sill": 0, "height": 2.1 }
+  ],
+  "unseen": [],
+  "assumptions": ["The photograph looks about 4.5 m wide."]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "contradictory-width",
+  "title": "The tape measurement is shorter than the door the brief placed",
+  "locked": [{ "property": "width", "valueM": 3 }],
+  "evidence": []
+}

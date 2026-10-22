@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "name": "New room",
+  "width": 4,
+  "depth": 3,
+  "height": 2.4,
+  "floorElevation": 0,
+  "wallThickness": 0.2,
+  "openings": [
+    { "wall": "south", "kind": "door", "offset": 0.5, "width": 0.9, "sill": 0, "height": 2.1 }
+  ],
+  "unseen": ["Replace this note with anything the photographs do not show."],
+  "assumptions": ["Replace the numbers with a saved model answer."]
+}

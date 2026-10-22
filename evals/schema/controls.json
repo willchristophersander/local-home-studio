@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "units": "metres",
+  "axes": "X east, Z north, Y up",
+  "wallWalk": {
+    "south": "west to east",
+    "east": "south to north",
+    "north": "east to west",
+    "west": "north to south"
+  },
+  "openingOffset": "Metres from the wall start to the first edge of the opening.",
+  "limits": {
+    "wallThicknessM": [
+      0.02,
+      2
+    ],
+    "minSegmentM": 0.02,
+    "openingClearanceFromJunctionM": 0.01,
+    "openingClearanceBelowWallTopM": 0.01,
+    "openingsOnOneWall": "Horizontal spans must not overlap, including stacked openings.",
+    "gablePitchDegrees": [
+      1,
+      80
+    ],
+    "shedPitchDegrees": [
+      0,
+      80
+    ]
+  },
+  "commands": {
+    "types": [
+      "put",
+      "remove"
+    ],
+    "collections": [
+      "nodes",
+      "storeys",
+      "walls",
+      "openings",
+      "slabs",
+      "roofs",
+      "beams",
+      "instances",
+      "measurements"
+    ]
+  },
+  "aiCannot": [
+    "rename the project",
+    "change asset files or AI-use permissions",
+    "write a locked measurement",
+    "mark a measurement as measured or chosen"
+  ]
+}

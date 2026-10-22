@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "name": "Style detail",
+  "width": 4,
+  "depth": 3,
+  "height": 2.4,
+  "floorElevation": 0,
+  "wallThickness": 0.2,
+  "openings": [],
+  "unseen": ["Width, depth, and height are not measurable from a style crop."],
+  "assumptions": ["The numbers are placeholders, not a tape measurement."]
+}

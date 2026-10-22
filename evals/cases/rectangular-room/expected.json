@@ -1,0 +1,14 @@
+{
+  "widthM": 4.2,
+  "depthM": 3.6,
+  "heightM": 2.44,
+  "floorElevationM": 0,
+  "toleranceM": 0.001,
+  "openings": [
+    { "wall": "south", "kind": "door", "widthM": 0.9 },
+    { "wall": "east", "kind": "window", "widthM": 1.2 }
+  ],
+  "overridden": [],
+  "geometryCodes": [],
+  "mustReject": false
+}

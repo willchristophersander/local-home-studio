@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "name": "Studio",
+  "width": 4.2,
+  "depth": 3.6,
+  "height": 2.44,
+  "floorElevation": 0,
+  "wallThickness": 0.2,
+  "openings": [
+    { "wall": "south", "kind": "door", "offset": 0.4, "width": 0.9, "sill": 0, "height": 2.1 },
+    { "wall": "east", "kind": "window", "offset": 0.8, "width": 1.2, "sill": 0.9, "height": 1.2 }
+  ],
+  "unseen": [],
+  "assumptions": ["Wall thickness is 0.2 m."]
+}
